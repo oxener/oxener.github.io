@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Frank Oxener's resumé">
+  <meta name="author" content="Frank Oxener">
+
+  <title>Frank Oxener - Resumé</title>
+  <link href="./images/duona.png" rel="shortcut icon">
+  <link rel="stylesheet" href="./stylesheets/app.css" type="text/css" media="all">
+  <script src="./javascripts/app.min.js" type="text/javascript"></script>
+  <script async="" defer="" data-domain="oxener.nl" src="https://plausible.io/js/plausible.js"></script>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-default navbar-static-top hidden-print">
+    <div class="container  ">
+      <div class="navbar-header hidden-print">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+          aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/summary"><span class="brand">Frank Oxener <small>Resumé</small></span></a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+
+        <ul class="nav navbar-nav navbar-right">
+
+          <li role="presentation" class="">
+            <a href="summary">summary</a>
+          </li>
+
+          <li role="presentation" class="active">
+            <a href="experience">experience</a>
+          </li>
+
+          <li role="presentation" class="">
+            <a href="technical_skills">technical skills</a>
+          </li>
+
+          <li role="presentation" class="">
+            <a href="contact">contact</a>
+          </li>
+
+
+        </ul>
+      </div>
+      <!--/.nav-collapse -->
+    </div>
+  </nav>
+  <div class="container">
+    <div class="page-header visible-print-block">
+      <h1>Frank Oxener <small>Resumé<span class=""> - experience</span></small></h1>
+    </div>
+  </div>
+
+
+  <div class="container">
+
+    <main role="main">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title"><span class="lead"><strong>Sensecap - 2020-2021</strong></span></h3>
+        </div>
+        <div class="panel-body lead">
+
+          <p>Sensecap is an <i>Internet of Things</i> service for monitoring an experimental oyster mushrooms farm,
+            where the mushrooms are cultivated on used coffee grounds. It uses several <i>LoRa</i> sensors (for
+            temparature, humidity, CO2, soil moisture etc) and it provides an production workflow in order to correlate
+            the measurements with the production batches.</p>
+
+          <p>Sensecap is a <mark>Elixir/Phoenix</mark> application and uses <i>LiveView</i>, <i>DID.app</i> (for
+            passwordless authentication) and an integration with <a href="https://www.thethingsnetwork.org/"
+              target="_blank">thethingsnetwork.org</a> (<i>TTN</i>). It is running in a <i>Docker</i> container with a
+            <i>PostgreSQL</i> database (deployed with Cloud66).
+          </p>
+
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title"><span class="lead"><strong>Consultify.app - 2020-2021</strong></span></h3>
+        </div>
+        <div class="panel-body lead">
+
+          <p>Consultify uses systemic consensing to measure the least amount of resistance in a group or community. It
+            is based on the so called SK-prinzip developed by Erich Visotschnig and Siegfried Schrotta.</p>
+
+          <p>Consultify is a <mark>Elixir/Phoenix</mark> application and uses <i>LiveView</i> and <i>DID.app</i> (for
+            passwordless authentication). It is running in a <i>Docker</i> container with a <i>PostgreSQL</i> database
+            (deployed with Cloud66).</p>
+
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title"><span class="lead"><strong>Rompslomp B.V. - 2019</strong></span></h3>
+        </div>
+        <div class="panel-body lead">
+
+          <p>Maintenance of the full stack <mark>Rails</mark> Rompslomp application. With Rompslomp accounting is made
+            easy for SMB and freelancers.</p>
+
+          <p>Also responsible for the roll out of new features, such as for example two-factor authentication, external
+            API with OAuth authetication and swagger documentation.</p>
+
+          <p>The Rompslomp application is running on <i>Amazon EC2</i> with a <i>MySQL</i> database on <i>RDS</i> with
+            the use of Cloud66 for provisioning and deploying.</p>
+
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title"><span class="lead"><strong>I2C Sensor toolkit - 2018</strong></span></h3>
+        </div>
+        <div class="panel-body lead">
+
+          <p>Development of a toolkit with the <mark>Elixir/Nerves</mark> framework in order to make use of I2C
+            environmental sensors on the Raspberry Pi platform, like for example temperature, air pressure, humidity,
+            CO2, soil moisture etc. Monitoring data was collected with the use of InfluxDB.</p>
+
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title"><span class="lead"><strong>Medangel - 2017-2019</strong></span></h3>
+        </div>
+        <div class="panel-body lead">
+
+          <p>Maintenance of the <mark>Phoenix</mark> backend for monitoring temperature of medicines.</p>
+
+          <p>MedAngel ONE is a solution that helps you to keep your medications at the right temperature. Measurements
+            are done with a wireless smart sensor in combination with a mobile application.</p>
+
+          <p>The Phoenix application is running in a <i>Docker</i> container on <i>Amazon EC2</i> with a
+            <i>PostgreSQL</i> database on <i>RDS</i> and using <i>Cloudwatch</i> for logging.
+          </p>
+
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title"><span class="lead"><strong>Stofzuigermarkt - 2017</strong></span></h3>
+        </div>
+        <div class="panel-body lead">
+
+          <p>I built an (OAuth) integration for an existing <mark>Rails</mark> application with Exact Online. Invoices
+            are automatically posted as sales entries in Exact with a continuous check on the correctness of the
+            debtors.</p>
+
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title"><span class="lead"><strong>VacuStock - 2017</strong></span></h3>
+        </div>
+        <div class="panel-body lead">
+
+          <p>I built a visual financial reporting tool (using <mark>Rails</mark> and <i>charts.js</i>) to get insight by
+            filtering and selecting cross sections of products, product groups, customers, companies, countries in 'all'
+            possible combinations.</p>
+
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title"><span class="lead"><strong>BettyBlocks - 2016</strong></span></h3>
+        </div>
+        <div class="panel-body lead">
+
+          <p>I worked on the migration of an expression parser from <mark>Ruby</mark> to <mark>Elixir</mark>. We made
+            heavy use of the internal Abstract Syntax Tree form <i>Elixir</i> itself.</p>
+
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title"><span class="lead"><strong>Netto/bruto calculator - 2015</strong></span></h3>
+        </div>
+        <div class="panel-body lead">
+
+          <p>A <mark>React/Redux</mark> browser application targeted at parents in order to calculate the child care
+            allowance given the total income and the number of children in Child Care.</p>
+
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title"><span class="lead"><strong>KDVnet.nl - 2009-2017</strong></span></h3>
+        </div>
+        <div class="panel-body lead">
+
+          <p>As the single developer, I was responsible for the development, maintenance and hosting of a full-featured
+            <mark>Rails</mark> system for childcare centers for the primary administrative workflow, such as planning,
+            contracting, invoicing, debtor management etc. Since 2012 I had to manage a growth of 30-40% every year in
+            traffic (and revenue). What started as a single server application became a full 'cluster' including load
+            balancing, application servers, background servers, fully replicated database servers (<mark>PostgreSQL,
+              Redis</mark>) and monitoring.
+          </p>
+
+          <p>In the last year, the decision was made to migrate to a <mark>Phoenix/Elm</mark> stack. The first step was
+            to create a hybrid application by session sharing with a Phoenix backend. The Phoenix backend was
+            responsible for handling the more intensive background jobs in order to reduce the load on the Rails
+            backend.</p>
+
+          <p>During this period the mt940 parser implemented for Dutch banks was open sourced, see <a
+              href="https://github.com/dovadi/mt940" target="_blank">mt940</a></p>
+
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title"><span class="lead"><strong>Observi - open source energy management -
+                2012</strong></span></h3>
+        </div>
+        <div class="panel-body lead">
+
+          <p>I developed an open source energy monitor existing of a hardware monitor (connected to a so-called
+            intelligent Electricity and Gas meter) sending usage data to a <mark>Rails</mark> backend. Visualizing the
+            energy consumption increases awareness of the energy consumption of a household. And also identifying hidden
+            energy leakers or energy inefficient devices.</p>
+
+          <p>Several libraries were open sourced, <a href="https://github.com/dovadi/ParseP1"
+              target="_blank">ParseP1</a>, <a href="https://github.com/dovadi/ReadP1" target="_blank">ReadP1</a>, and <a
+              href="https://github.com/dovadi/data_store" target="_blank">data_store</a>.</p>
+
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title"><span class="lead"><strong>CO2 management - 2012</strong></span></h3>
+        </div>
+        <div class="panel-body lead">
+
+          <p>Maintenance of an existing <mark>Rails</mark> application where I also implemented standard reporting
+            templates (with analysis and visualization) in compliance with the so-called CO2 performance ladder. The CO2
+            Performance Ladder is a tool that helps companies reduce their CO2 output.</p>
+
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title"><span class="lead"><strong>Caldic - 2010-2011</strong></span></h3>
+        </div>
+        <div class="panel-body lead">
+
+          <p>Caldic had an Intranet, a <mark>Rails</mark> application with an integration an <mark>Unisys
+              Mainframe</mark>. I implemented a so-called Reach Supplier Questionnaire - REACH stands for Registration,
+            Evaluation, Authorization, and Restriction of Chemicals.</p>
+
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title"><span class="lead"><strong>Blacklist - International well known NGO -
+                2009</strong></span></h3>
+        </div>
+        <div class="panel-body lead">
+
+          <p>Maintenance on an existing <mark>Rails</mark> application for blacklisting vessels and companies. The
+            purpose of this blacklist database is to publicly expose irresponsible fishing operators and the companies
+            behind them.</p>
+
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title"><span class="lead"><strong>Autoalbum.nl - 2008</strong></span></h3>
+        </div>
+        <div class="panel-body lead">
+
+          <p>I built the application for Autoalbum on top of LovdbyLess, an open source social network built with
+            <mark>Rails</mark>. With Autoalbum you are able to share your cars with pictures, videos, and descriptions
+            with likeminded car enthusiasts.
+          </p>
+
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title"><span class="lead"><strong>OAuth Hyves integration for Bemba.com -
+                2008</strong></span></h3>
+        </div>
+        <div class="panel-body lead">
+
+          <p>The startup Bemba (it doesn't exist anymore) was a sharing service that will make your life easier and more
+            fun. Bemba Statistics gives you direct and continuous feedback on your sharing actions. Bemba.com was built
+            with <mark>Rails</mark> and I was asked to build the OAuth integration with Hyves.</p>
+
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title"><span class="lead"><strong>RubyOnRails 2007 conference - Co-organizer</strong></span>
+          </h3>
+        </div>
+        <div class="panel-body lead">
+
+          <p>I co-organized the second <mark>Ruby on Rails</mark> (and in many ways a much bigger than the very first)
+            conference, this time held in Amsterdam. We now invited well known and International speakers like
+            <mark>Aslak Hellesøy, Obie Fernandez, Dr. Nic, and Geoffrey Grosenbach</mark>.
+          </p>
+
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title"><span class="lead"><strong>Scotty - Waag society - 2007</strong></span></h3>
+        </div>
+        <div class="panel-body lead">
+
+          <p>I wrote a <mark>Ruby</mark> daemon for communicating with a so-called Scottie via Bluetooth. Scotty was a
+            project researching the possibilities for nonverbal communication between a patient and his/her family and
+            friends.</p>
+
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title"><span class="lead"><strong>Beloofdisbeloofd.nl - 2006</strong></span></h3>
+        </div>
+        <div class="panel-body lead">
+
+          <p>Development of a Digg like application in order to score the promises made by Dutch politician during the
+            election cycle.</p>
+
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title"><span class="lead"><strong>Continumeting - Rijkswaterstaat - 2006-2010</strong></span>
+          </h3>
+        </div>
+        <div class="panel-body lead">
+
+          <p>Development and hosting of a <mark>Rails</mark> application in order to collect data from all the helpdesks
+            in the whole organization. With this consolidated information, a continuous quality measurement of the IT
+            support was performed on a weekly basis.</p>
+
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title"><span class="lead"><strong>RubyEnRails 2006 conference - Opening
+                speaker</strong></span></h3>
+        </div>
+        <div class="panel-body lead">
+
+          <p>In about an hour I did a live coding session to show the capabilities of the <mark>Ruby On Rails</mark>
+            framework. I built a Rails application that showed location of all the attendants of the first Ruby On Rails
+            conference in the Netherlands based on zip codes with the use of the google maps API plugin.</p>
+
+        </div>
+      </div>
+
+    </main>
+
+  </div> <!-- /container -->
+
+
+
+
+</body>
+
+</html>
